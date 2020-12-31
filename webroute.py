@@ -12,3 +12,4 @@ for i in range(c):
     print("https://uditsingh.com/"+f)
     print("\n", g.status_code)
     g.text
+    print("done")
