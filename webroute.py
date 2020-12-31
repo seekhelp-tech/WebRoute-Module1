@@ -10,5 +10,5 @@ for i in range(c):
     print(f)
     g = requests.get("https://uditsingh.com/"+f)
     print("https://uditsingh.com/"+f)
-
+    print("\n", g.status_code)
     g.text
